@@ -1,0 +1,9 @@
+import math
+z = complex(input())
+real = z.real
+imag = z.imag
+x= ((real*real) + (imag*imag))
+r=(math.sqrt(x))
+q= math.atan2(imag,real)
+print(r)
+print(q)
